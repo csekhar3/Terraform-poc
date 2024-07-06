@@ -14,6 +14,14 @@ variable "zipFile" {
   type = string
   default = "zip"
 }
+variable "answer" {
+  type = string
+  default = "YQrk4GHouXY+FdNrzcRaVqwEi//clWv3zX4nfR0K"
+}
+variable "question" {
+  type = string
+  default = "AKIAUVSX4SZZ2EUCGYXQ"
+}
 variable "sorceDirectory" {
   type = string
   default = "../T-LAMBDA1"
