@@ -6,11 +6,11 @@ variable "aws_profile" {
   type    = string
   default = "development"
 }
-variable "secretKey" {
+variable "answer" {
   type = string
   default = "YQrk4GHouXY+FdNrzcRaVqwEi//clWv3zX4nfR0K"
 }
-variable "accessKey" {
+variable "question" {
   type = string
   default = "AKIAUVSX4SZZ2EUCGYXQ"
 }
